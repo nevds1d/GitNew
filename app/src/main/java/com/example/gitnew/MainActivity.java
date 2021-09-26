@@ -1,0 +1,21 @@
+package com.example.gitnew;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        int sum = 5 + 5;
+        sum += 3;
+
+    }
+    public static int multi() {
+        int mul = 5 * 5;
+        return mul;
+    }
+}
