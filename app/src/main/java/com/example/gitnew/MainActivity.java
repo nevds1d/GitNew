@@ -16,4 +16,9 @@ public class MainActivity extends AppCompatActivity {
         int mul = 5 * 5;
         return mul;
     }
+
+    public static int div() {
+        int div = 4 / 2;
+        return div;
+    }
 }
